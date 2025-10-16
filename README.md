@@ -1,30 +1,5 @@
-# Boot-PC
-Boot your pc
+# So whats the point of this?
+See if we can use Gadget USB Display (GUD) on android without doing a fkin mess
 
-
-
-
-
-
-An android app to boot pc without external media.
-
-
-[Pick]Start, plug and boot.
-
-
-<del> Currently in early, stage. So may not work on all device. Need testers to test. </del>
-
-
-Requirement: Rooted device
-
-
-/del>Source code- master branch</del>
-
-
-**To download check release.**
-```Note[19/9/2023]: Starting from today there will be two version, untested and stable. latest release may contain any of these. ````
-
-
-Image taken from: https://www.flaticon.com/free-icon/connection_1674900?related_id=1674798&origin=search
-
-
+# Why
+The screen of my laptop broke, and it will be very cool to backport this driver if it works
