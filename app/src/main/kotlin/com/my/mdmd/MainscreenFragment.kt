@@ -185,8 +185,9 @@ var stri: String = getMassStorage(tempList)
               "cd /config/usb_gadget/g1\n" +
               "getprop sys.usb.config >configs/b.1/strings/0x409/configuration\n" +
               "for f in configs/b.1/f*; do rm \$f; done\n" +
-              "echo 0x1d6b > idVendor\n" +
-              "echo 0x0104 > idProduct\n" +
+              "echo 0x1d50 > idVendor\n" +
+              "echo 0x614d > idProduct\n" +
+			  "echo "500" > configs/c.1/MaxPower\n"
               "ln -s /config/usb_gadget/g1/functions/${MainActivity.Profile.massStorage}  /config/usb_gadget/g1/configs/b.1/f1\n" +
               "echo \"\" > /sys/class/android_usb/android0/f_mass_storage/lun0/file\n" +
               "echo 1 > /sys/class/android_usb/android0/f_mass_storage/lun0/cdrom\n" +
